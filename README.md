@@ -49,6 +49,10 @@ library(igraph) <br>
 <body>
 
 <table>
+ <tr>
+    <th>Object</th>
+     <th>Description</th>
+   </tr>
    <tr>
     <td>mydata</td>
     <td>A gene expression dataset (matrix). Rows represent genes, and columns represent samples (from control to case)</td>
