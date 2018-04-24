@@ -86,6 +86,10 @@ library(igraph) <br>
 <body>
 
 <table>
+  <tr>
+    <th>Object</th>
+     <th>Description</th>
+   </tr>
    <tr>
     <td>Fishertest.p.value</td>
     <td>The p-value of the Fisher’s exact test</td>
