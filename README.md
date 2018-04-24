@@ -6,7 +6,7 @@ The R script to perform the main part (Fisher’s exact test) of PoTRA, the alte
 
 Example usage of PoTRA.R: <b>PoTRA-example.R</b><br>
 
-Data used in PoTRA-example.R: <b>PoTRA-example-data.Rdata</b><br>
+Data used in PoTRA-example.R: <b>PoTRA_Example_Data.RData</b><br>
 
 
 library(BiocGenerics) <br>
