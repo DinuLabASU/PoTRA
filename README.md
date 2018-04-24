@@ -127,12 +127,6 @@ library(igraph) <br>
 </body>
 </html>
  
-
-
-<b>Examples </b>
-
-See PoTRA-example.R
-
  
 # Credits
 
