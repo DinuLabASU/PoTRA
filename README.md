@@ -13,6 +13,7 @@ library(BiocGenerics) <br>
 library(graph) <br>
 library(graphite) <br>
 library(igraph) <br>
+library(org.HS.eg.db) <br>
 
 <b>Choose your database before running the PoTRA.cor commandline: <br> </b>
 <code>humanKEGG <- pathways("hsapiens", "kegg") </code>
