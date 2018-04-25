@@ -34,6 +34,7 @@ library(igraph) <br>
 <code>results.comb <-PoTRA.comb(mydata=mydata,genelist=genelist,Num.sample.normal=4,Num.sample.case=4,Pathway.database=humanKEGG,PR.quantile=0.95)</code>
 
 
+<b>Not in Use, due to errors, but different visualizations will be developed</b><br>
 <b>For the kernel density plot:</b> <br>
 
 <code>results.plot <- overlayplot(mydata,genelist,Num.sample.normal,Num.sample.case,Pathway.database)</code>
@@ -41,7 +42,7 @@ library(igraph) <br>
  
 <b>Example Usage: </b><br>
 
-<code>results.plot <- overlayplot(mydata=mydata,genelist=genelist,Num.sample.normal=8,Num.sample.case=8,Pathway.database=humanKEGG[[1]])</code>
+<code>results.plot <- overlayplot(mydata=mydata,genelist=genelist,Num.sample.normal=4,Num.sample.case=4,Pathway.database=humanKEGG[[1]])</code>
 
 # Arguments
 
