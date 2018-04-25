@@ -35,7 +35,7 @@ library(igraph) <br>
 <br>
 <br>
 
-<b>The overlayplot functin is not in use, due to errors, but different visualizations will be developed</b><br>
+<b>The overlayplot function is not in use, due to errors, but different visualizations will be developed</b><br>
 For the kernel density plot: <br>
 
 <code>results.plot <- overlayplot(mydata,genelist,Num.sample.normal,Num.sample.case,Pathway.database)</code>
