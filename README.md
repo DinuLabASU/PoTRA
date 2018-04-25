@@ -32,10 +32,11 @@ library(igraph) <br>
 
 <b>Example Usage: </b><br>
 <code>results.comb <-PoTRA.comb(mydata=mydata,genelist=genelist,Num.sample.normal=4,Num.sample.case=4,Pathway.database=humanKEGG,PR.quantile=0.95)</code>
+<br>
+<br>
 
-
-<b>Not in Use, due to errors, but different visualizations will be developed</b><br>
-<b>For the kernel density plot:</b> <br>
+<b>The overlayplot functin is not in use, due to errors, but different visualizations will be developed</b><br>
+For the kernel density plot: <br>
 
 <code>results.plot <- overlayplot(mydata,genelist,Num.sample.normal,Num.sample.case,Pathway.database)</code>
 
