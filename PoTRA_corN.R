@@ -35,6 +35,7 @@ if (length(args)==0) {
 ## export Num_sample_case=4
 ## export PR_quantile=0.95
 
+
 ## Rscript PoTRA_corN.R mydata.gene genelist.txt $Num_sample_normal $Num_sample_case $PR_quantile Results_CorN.txt
 
 ## args[1] = mydata
@@ -177,6 +178,7 @@ PoTRA.corN <- function(mydata,genelist,Num.sample.normal,Num.sample.case,Pathway
 
 # Reformat mydata.txt
 
+
 mydata.gene <- read.table(args[1], header = TRUE, sep = "\t")
 mydata <- mydata.gene[,-1]
 rownames(mydata) <- mydata.gene[,1]
@@ -193,7 +195,10 @@ humanKEGG <- pathways("hsapiens", "kegg")
 ## SET Pathway_database=humanKEGG
 ## SET PR_quantile=0.95
 
+
+
 ## Rscript PoTRA_corN.R mydata.gene genelist.txt $Num_sample_normal $Num_sample_case $PR_quantile Results_CorN.txt
+
 
 ##For PoTRA.corN:
 ## args[1] = mydata
