@@ -1,4 +1,4 @@
-
+## For use in R IDE
 
 PoTRA.combN <- function(mydata, genelist, Num.sample.normal, Num.sample.case, Pathway.database, PR.quantile) {
   
